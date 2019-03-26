@@ -36,6 +36,7 @@ def quicksort(fishes)
   sorted = sorted_left + [pivot] + sorted_right
   sorted  
 end
+
 # Clever Octopus
 # Find the longest fish in O(n) time. The octopus can hold on to the longest fish that you have found so far while stepping through the array only once.
 
