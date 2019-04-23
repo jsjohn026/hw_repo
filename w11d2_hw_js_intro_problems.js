@@ -68,10 +68,13 @@ function isSubstring(searchString, subString) {
 
 // fizzBuzz:
 function fizzBuzz(array) {
-  newArray = [];
-  for (i = 0; i < array.length; i++) {
-    if array[i] % 3 === 0 && array[i] % 5 
-  }
+  let newArray = [];
+  array.array.forEach(el => {
+    if ((el % 3 === 0) ^ (el % 5 === 0)) {
+      newArray.push(el);
+    }
+  });
+  return newArray;
 }
 
 // isPrime:
