@@ -69,14 +69,46 @@ function isSubstring(searchString, subString) {
 // fizzBuzz:
 function fizzBuzz(array) {
   let newArray = [];
-  array.array.forEach(el => {
-    if ((el % 3 === 0) ^ (el % 5 === 0)) {
+  array.forEach(el => {
+    if ((el % 3 === 0) ^ (el % 5 === 0)) { // || will not work here
       newArray.push(el);
     }
   });
   return newArray;
 }
 
+// console.log(fizzBuzz([6, 8, 15, 7, 80])); // should return [6, 80]
+
 // isPrime:
 
+function isPrime(num) {
+  if (num < 2) { return false;}
+  
+  for(let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+// console.log(isPrime(2)); // true
+// console.log(isPrime(10)); // false
+// console.log(isPrime(15485863)); // true
+// console.log(isPrime(3548563)); // false
+
+
 // sumofNPrimes:
+
+function sumofNPrimes(n) {
+  let numsToSum = [];
+  let i = 
+  while (numsToSum.length <= n) {
+
+  }
+  sum;
+}
+
+console.log(sumOfNPrimes(0));// 0
+console.log(sumOfNPrimes(1)); // 2
+console.log(sumOfNPrimes(4)); // 17
