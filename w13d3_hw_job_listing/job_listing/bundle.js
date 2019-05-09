@@ -268,14 +268,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_widget__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/widget */ "./frontend/components/widget.jsx");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./store */ "./frontend/store.js");
-/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_store__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 
 document.addEventListener("DOMContentLoaded", function () {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_widget__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    store: _store__WEBPACK_IMPORTED_MODULE_3___default.a
+    store: _store__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), document.getElementById('root'));
 });
 
@@ -285,10 +284,10 @@ document.addEventListener("DOMContentLoaded", function () {
 /*!***************************!*\
   !*** ./frontend/store.js ***!
   \***************************/
-/*! no static exports found */
+/*! no exports provided */
 /***/ (function(module, exports) {
 
-
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/frontend/store.js: Unexpected token, expected \"{\" (4:6)\n\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[36mimport\u001b[39m reducer from \u001b[32m\"frontend/reducer.js\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 | \u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 4 | \u001b[39m\u001b[36mexport\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    at _class.raise (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:3939:15)\n    at _class.unexpected (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:5248:16)\n    at _class.expect (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:5236:28)\n    at _class.parseExportSpecifiers (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:8397:10)\n    at _class.parseExport (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:8194:30)\n    at _class.parseStatementContent (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:7240:27)\n    at _class.parseStatement (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:7153:17)\n    at _class.parseBlockOrModuleBlockBody (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:7707:23)\n    at _class.parseBlockBody (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:7694:10)\n    at _class.parseTopLevel (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:7118:10)\n    at _class.parse (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:8521:17)\n    at parse (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/parser/lib/index.js:10513:38)\n    at parser (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/core/lib/transformation/normalize-file.js:170:34)\n    at normalizeFile (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/core/lib/transformation/normalize-file.js:138:11)\n    at runSync (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/core/lib/transformation/index.js:44:43)\n    at runAsync (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/core/lib/transformation/index.js:35:14)\n    at process.nextTick (/Users/jasmine/Desktop/Coding/fullstack_online/swe_online_ruby/hw_repo/w13d3_hw_job_listing/job_listing/node_modules/@babel/core/lib/transform.js:34:34)\n    at process._tickCallback (internal/process/next_tick.js:61:11)");
 
 /***/ }),
 
